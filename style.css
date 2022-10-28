@@ -1,0 +1,51 @@
+body{
+    background-color: purple;
+}
+.title{
+    font-size: 100px;
+}
+
+.flex-child-element {
+    flex: 1;
+    margin: 10px;
+    align-items: center;
+  }
+.flex-parent-element {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+.select{
+    text-decoration: none;
+    color: lightblue;
+}
+.flex-parent-player {
+    display: flex;
+}
+.flex-player{
+    flex: 1;
+    text-align: center;
+}
+.white-space{
+    flex: 2;
+}
+.player{
+    height: 500px;
+}
+.flip{
+    transform: scaleX(-1);
+}
+.baseball{
+    position: absolute;
+    width: 60px;
+    top: 50%;
+    left: 20%;
+    transition: left 20ms linear;
+}
+.score{
+    font-size:60px;
+}
+.gameFinal{
+    margin-top: 10px;
+    font-size: 80px;
+}
